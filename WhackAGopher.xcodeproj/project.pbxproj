@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		A69421121DCF13C7001F979E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69421111DCF13C7001F979E /* AppDelegate.swift */; };
 		A69421141DCF13C7001F979E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A69421131DCF13C7001F979E /* GameScene.sks */; };
-		A69421161DCF13C7001F979E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A69421151DCF13C7001F979E /* Actions.sks */; };
 		A69421181DCF13C7001F979E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69421171DCF13C7001F979E /* GameScene.swift */; };
 		A694211A1DCF13C7001F979E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69421191DCF13C7001F979E /* GameViewController.swift */; };
 		A694211D1DCF13C7001F979E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A694211B1DCF13C7001F979E /* Main.storyboard */; };
 		A694211F1DCF13C7001F979E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A694211E1DCF13C7001F979E /* Assets.xcassets */; };
 		A69421221DCF13C7001F979E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69421201DCF13C7001F979E /* LaunchScreen.storyboard */; };
+		A694212A1DCF145F001F979E /* Content in Resources */ = {isa = PBXBuildFile; fileRef = A69421291DCF145F001F979E /* Content */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A694210E1DCF13C7001F979E /* WhackAGopher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhackAGopher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69421111DCF13C7001F979E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A69421131DCF13C7001F979E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A69421151DCF13C7001F979E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A69421171DCF13C7001F979E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A69421191DCF13C7001F979E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A694211C1DCF13C7001F979E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A694211E1DCF13C7001F979E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A69421211DCF13C7001F979E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A69421231DCF13C7001F979E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69421291DCF145F001F979E /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +62,10 @@
 			children = (
 				A69421111DCF13C7001F979E /* AppDelegate.swift */,
 				A69421131DCF13C7001F979E /* GameScene.sks */,
-				A69421151DCF13C7001F979E /* Actions.sks */,
 				A69421171DCF13C7001F979E /* GameScene.swift */,
 				A69421191DCF13C7001F979E /* GameViewController.swift */,
 				A694211B1DCF13C7001F979E /* Main.storyboard */,
+				A69421291DCF145F001F979E /* Content */,
 				A694211E1DCF13C7001F979E /* Assets.xcassets */,
 				A69421201DCF13C7001F979E /* LaunchScreen.storyboard */,
 				A69421231DCF13C7001F979E /* Info.plist */,
@@ -134,9 +134,9 @@
 			files = (
 				A694211D1DCF13C7001F979E /* Main.storyboard in Resources */,
 				A69421141DCF13C7001F979E /* GameScene.sks in Resources */,
+				A694212A1DCF145F001F979E /* Content in Resources */,
 				A694211F1DCF13C7001F979E /* Assets.xcassets in Resources */,
 				A69421221DCF13C7001F979E /* LaunchScreen.storyboard in Resources */,
-				A69421161DCF13C7001F979E /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
