@@ -15,6 +15,8 @@
 		A694211F1DCF13C7001F979E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A694211E1DCF13C7001F979E /* Assets.xcassets */; };
 		A69421221DCF13C7001F979E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69421201DCF13C7001F979E /* LaunchScreen.storyboard */; };
 		A694212A1DCF145F001F979E /* Content in Resources */ = {isa = PBXBuildFile; fileRef = A69421291DCF145F001F979E /* Content */; };
+		A694212C1DD1F5DE001F979E /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A694212B1DD1F5DE001F979E /* WhackSlot.swift */; };
+		A694212E1DD1FB08001F979E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A694212D1DD1FB08001F979E /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A69421211DCF13C7001F979E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A69421231DCF13C7001F979E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A69421291DCF145F001F979E /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = "<group>"; };
+		A694212B1DD1F5DE001F979E /* WhackSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		A694212D1DD1FB08001F979E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A69421111DCF13C7001F979E /* AppDelegate.swift */,
 				A69421131DCF13C7001F979E /* GameScene.sks */,
 				A69421171DCF13C7001F979E /* GameScene.swift */,
+				A694212D1DD1FB08001F979E /* Helper.swift */,
+				A694212B1DD1F5DE001F979E /* WhackSlot.swift */,
 				A69421191DCF13C7001F979E /* GameViewController.swift */,
 				A694211B1DCF13C7001F979E /* Main.storyboard */,
 				A69421291DCF145F001F979E /* Content */,
@@ -149,6 +155,8 @@
 			files = (
 				A69421181DCF13C7001F979E /* GameScene.swift in Sources */,
 				A694211A1DCF13C7001F979E /* GameViewController.swift in Sources */,
+				A694212E1DD1FB08001F979E /* Helper.swift in Sources */,
+				A694212C1DD1F5DE001F979E /* WhackSlot.swift in Sources */,
 				A69421121DCF13C7001F979E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +321,7 @@
 				A69421281DCF13C7001F979E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
